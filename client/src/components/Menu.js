@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
 import {Row, Col} from 'react-bootstrap'
+import Axios from 'axios'
 
 export default class Home extends Component {
+
+  componentDidMount() {
+    fetch('/hello')
+      .then(console.log(res))
+  }
+
 render () {
+
+
 
   return(
     <Row className='main-menu-row'>

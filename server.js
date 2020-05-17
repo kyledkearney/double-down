@@ -38,6 +38,10 @@ function createDeck() {
 
 }; 
 
+app.get('/hello', (req, res) => {
+  res.send('hello-world')
+})
+
 
 app.get("/api/deck", (req, res) => {
   const param = req.query.q;
