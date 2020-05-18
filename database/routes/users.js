@@ -15,3 +15,5 @@ router.get('/', function(req, res, next) {
   	username: "D0loresH4ze"
   }]);
 });
+
+module.exports = router;
